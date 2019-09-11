@@ -247,7 +247,7 @@ class MessageForm extends React.Component {
             onClick={this.sendMessage}
             disabled={loading}
             color="orange"
-            content="Add Reply"
+            content={`${'Add Reply'}${' [ctrl + enter]'}`}
             labelPosition="left"
             icon="edit"
           />
